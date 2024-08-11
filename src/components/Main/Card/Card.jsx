@@ -27,7 +27,7 @@ export default function Card({
         </div>
         <h2 className="card--title">{title}</h2>
         <p className="card--dates">
-          {startDate}-{endDate}
+          {startDate} - {endDate}
         </p>
         <p className="card--description">{description}</p>
       </div>

@@ -1,3 +1,5 @@
 .main {
   padding: 2em var(--side-padding);
+  display: grid;
+  place-content: center;
 }
