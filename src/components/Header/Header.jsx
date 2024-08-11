@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="nav">
         <a className="logo" href="index.html">
           <img src={logo} alt="logo" />
-          <p>my travel journal.</p>
+          <h1>my travel journal.</h1>
         </a>
       </nav>
     </header>

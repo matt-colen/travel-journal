@@ -15,3 +15,8 @@
   align-items: center;
   gap: 0.5em;
 }
+
+.logo > h1 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
