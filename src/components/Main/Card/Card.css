@@ -1,13 +1,14 @@
 .card {
   margin: 1em;
   display: flex;
+  flex-flow: column;
   align-items: center;
   gap: 1.5em;
 }
 
 .card--img {
   height: 168px;
-  width: 125px;
+  width: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -15,12 +16,13 @@
 .card--details {
   display: grid;
   gap: 0.5em;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .card--location {
   align-items: center;
   gap: 0.5em;
+  flex-flow: wrap;
 }
 
 .location-txt {
@@ -44,4 +46,24 @@
 .card--description {
   line-height: 1.5;
   max-width: 500px;
+}
+
+.card a:hover {
+  opacity: 0.8;
+  color: hsl(180, 89%, 36%);
+}
+
+@media (min-width: 800px) {
+  .card {
+    flex-flow: row;
+    gap: 2.5em;
+  }
+  .card--img {
+    height: 200px;
+    width: 14vw;
+    min-width: 150px;
+  }
+  .google-maps-link {
+    font-size: 0.7rem;
+  }
 }

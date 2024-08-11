@@ -21,7 +21,7 @@ export default function Card({
         <div className="card--location flex">
           <img src={pin} alt="pin icon" />
           <p className="location-txt">{location}</p>
-          <a className="google-maps-link" href={googleMapsUrl}>
+          <a className="google-maps-link" href={googleMapsUrl} target="_blank">
             View on Google Maps
           </a>
         </div>

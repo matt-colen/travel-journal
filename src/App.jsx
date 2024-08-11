@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 
 export default function App() {
   return (
@@ -8,5 +8,5 @@ export default function App() {
       <Header />
       <Main />
     </>
-  )
+  );
 }

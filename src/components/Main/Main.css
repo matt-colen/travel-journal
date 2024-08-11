@@ -2,4 +2,5 @@
   padding: 2em var(--side-padding);
   display: grid;
   place-content: center;
+  gap: 2em;
 }
