@@ -1,2 +1,25 @@
 :root {
+  --clr-white: #fff;
+  --clr-primary: #f55a5a;
+  --font: "Inter", sans-serif;
+  --side-padding: 2.5em;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+a,
+button,
+input,
+textarea {
+  font-family: var(--font);
+}
+
+a {
+  transition: all 0.3s;
 }

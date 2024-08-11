@@ -1,0 +1,17 @@
+.nav {
+  background: var(--clr-primary);
+  padding: 1em var(--side-padding);
+  color: var(--clr-white);
+}
+
+.nav a {
+  color: var(--clr-white);
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
