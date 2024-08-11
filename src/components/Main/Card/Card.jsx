@@ -18,12 +18,14 @@ export default function Card({
         alt={`Scenic photo of ${location}`}
       />
       <div className="card--details">
-        <div className="card--location">
+        <div className="card--location flex">
           <img src={pin} alt="pin icon" />
-          <p>{location}</p>
-          <a href={googleMapsUrl}>View on Google Maps</a>
+          <p className="location-txt">{location}</p>
+          <a className="google-maps-link" href={googleMapsUrl}>
+            View on Google Maps
+          </a>
         </div>
-        <h2>{title}</h2>
+        <h2 className="card--title">{title}</h2>
         <p className="card--dates">
           {startDate}-{endDate}
         </p>

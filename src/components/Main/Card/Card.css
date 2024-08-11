@@ -1,0 +1,47 @@
+.card {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.card--img {
+  height: 168px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card--details {
+  display: grid;
+  gap: 0.5em;
+  font-size: 0.7rem;
+}
+
+.card--location {
+  align-items: center;
+  gap: 0.5em;
+}
+
+.location-txt {
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+
+.google-maps-link {
+  color: var(--clr-txt-low-significance);
+  text-decoration-line: underline;
+}
+
+.card--title {
+  font-size: 1.75rem;
+}
+
+.card--dates {
+  font-weight: bold;
+}
+
+.card--description {
+  line-height: 1.5;
+  max-width: 500px;
+}

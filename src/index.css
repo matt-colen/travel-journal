@@ -1,6 +1,8 @@
 :root {
   --clr-white: #fff;
   --clr-primary: #f55a5a;
+  --clr-txt-dark: #2b283a;
+  --clr-txt-low-significance: #918e9b;
   --font: "Inter", sans-serif;
   --side-padding: 2.5em;
 }
@@ -12,12 +14,17 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
 body,
 a,
 button,
 input,
 textarea {
   font-family: var(--font);
+  color: var(--clr-txt-dark);
 }
 
 a {

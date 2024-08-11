@@ -4,5 +4,5 @@ import "./Main.css";
 
 export default function Main() {
   const cards = cardData.map((item) => <Card key={`${item.id}`} {...item} />);
-  return <main>{cards}</main>;
+  return <main className="main">{cards}</main>;
 }
